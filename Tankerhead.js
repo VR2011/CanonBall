@@ -7,7 +7,7 @@ class TankerHead {
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
-      this.image2= loadImage("assets/tankhead-horizontal.png"); 
+      this.image2= loadImage("tankhead-horizontal.png"); 
       World.add(world, this.body);
       };
   
