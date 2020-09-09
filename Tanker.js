@@ -7,7 +7,7 @@ class Tanker {
     this.body = Bodies.rectangle(x, y, width, height, options);
     this.width = width;
     this.height = height;
-    this.image= loadImage("assets/tankbody.png"); 
+    this.image= loadImage("tankbody.png"); 
    
     World.add(world, this.body);
     };
